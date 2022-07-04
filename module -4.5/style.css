@@ -6,15 +6,33 @@ body{
 display: flex;
 width: 100%;
 justify-content: center;
+margin-top: 110px;
 }
 .left-item{
 width: 40%;
+margin-left: 90px;
+}
+.left-item h1{
+    font-size: 50px;
+}
+.left-item p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.btn{
+    text-decoration: none;
+    background: linear-gradient(red,orange);
+    padding: 20px 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px;
 }
 .right-item{
 width: 40%;
 }
 .quote{
-color: rgba(192, 11, 57, 0.767);
+color: rgb(166, 0, 255);
 }
 .right-item img{
 height: 650px;
