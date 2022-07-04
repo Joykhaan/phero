@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.first-banner{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+.left-item{
+width: 40%;
+}
+.right-item{
+width: 40%;
+}
+.quote{
+color: rgba(192, 11, 57, 0.767);
+}
+.right-item img{
+height: 650px;
+}
